@@ -12,7 +12,10 @@ Write a function that transforms the values in a dictionary based on their types
 Example: if the input dictionary is {'name': 'john', 'age': 25, 'active': True}, the output should be {'name': 'JOHN', 'age': 50, 'active': True}.
 
 # Solution
-'''
+'''python test.py  -r 'python test.py'
+<prefix>
+
+</prefix>
 <template>
 def transform_dict_values(input_dict: dict) -> dict:
     '''
