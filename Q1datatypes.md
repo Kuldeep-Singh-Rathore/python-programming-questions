@@ -37,45 +37,45 @@ Example: if the input dictionary is {'name': 'john', 'age': 25, 'active': True},
 
 <template>
 
-def transform_dict_values(input_dict: dict) -> dict:
+    def transform_dict_values(input_dict: dict) -> dict:
 
-'''
+    '''
 
-Transform values in a dictionary based on their types.
+    Transform values in a dictionary based on their types.
 
-Arguments:
+    Arguments:
 
-input_dict: dict - Dictionary containing various types of values
+    input_dict: dict - Dictionary containing various types of values
 
-Returns:
+    Returns:
 
-dict - New dictionary with transformed values
+    dict - New dictionary with transformed values
 
-'''
+    '''
 
-<los>pass</los>
+    <los>pass</los>
 
-<sol>
+    <sol>
 
-result = {}
+    result = {}
 
-for key, value in input_dict.items():
+        for key, value in input_dict.items():
 
-if isinstance(value, str):
+        if isinstance(value, str):
 
-result[key] = value.upper()
+        result[key] = value.upper()
 
-elif isinstance(value, int):
+        elif isinstance(value, int):
 
-result[key] = value * 2
+        result[key] = value * 2
 
-else:
+        else:
 
-result[key] = value
+        result[key] = value
 
-return result
+    return result
 
-</sol>
+    </sol>
 
 </template>
 
@@ -85,9 +85,9 @@ return result
 
 def test_transform_dict(input_dict, expected_output):
 
-result = transform_dict_values(input_dict)
+    result = transform_dict_values(input_dict)
 
-assert result == expected_output, f"Expected {expected_output}, but got {result}"
+    assert result == expected_output, f"Expected {expected_output}, but got {result}"
 
 </suffix_invisible>
 
