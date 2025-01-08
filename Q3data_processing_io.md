@@ -69,7 +69,7 @@ print(process_student_marks(n))
 <suffix_invisible>
 
 </suffix_invisible>
-
+```
 # Public Test Cases
 
 ## Input 1

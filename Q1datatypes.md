@@ -5,13 +5,14 @@ tags: ['dict', 'string', 'int']
 
 # Problem Statement
 Write a function that transforms the values in a dictionary based on their types. The function should:
-    1. Convert all string values to uppercase
-    2. Multiply all integer values by 2
-    3. Leave all other types of values unchanged
+1. Convert all string values to uppercase
+2. Multiply all integer values by 2
+3. Leave all other types of values unchanged
 
 Example: if the input dictionary is {'name': 'john', 'age': 25, 'active': True}, the output should be {'name': 'JOHN', 'age': 50, 'active': True}.
 
 # Solution
+'''
 <template>
 def transform_dict_values(input_dict: dict) -> dict:
     '''
@@ -42,6 +43,7 @@ def test_transform_dict(input_dict, expected_output):
     result = transform_dict_values(input_dict)
     assert result == expected_output, f"Expected {expected_output}, but got {result}"
 </suffix_invisible>
+```
 
 # Public Test Cases
 

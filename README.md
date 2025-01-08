@@ -2,9 +2,9 @@
 
 # Problem 1
 Write a function that transforms the values in a dictionary based on their types. The function should:
-    1. Convert all string values to uppercase
-    2. Multiply all integer values by 2
-    3. Leave all other types of values unchanged
+1. Convert all string values to uppercase
+2. Multiply all integer values by 2
+3. Leave all other types of values unchanged
 
 # Problem 2
 Write a function `top_selling_product` that processes a list of tuples containing product names and their sales. The function should:
