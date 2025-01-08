@@ -59,19 +59,19 @@ Example: if the input dictionary is {'name': 'john', 'age': 25, 'active': True},
 
     result = {}
 
-        for key, value in input_dict.items():
+    for key, value in input_dict.items():
 
         if isinstance(value, str):
 
-        result[key] = value.upper()
+            result[key] = value.upper()
 
         elif isinstance(value, int):
 
-        result[key] = value * 2
+            result[key] = value * 2
 
         else:
 
-        result[key] = value
+            result[key] = value
 
     return result
 
